@@ -1,5 +1,5 @@
 # Lowman Central API
-The official Lowman API for Destiny 2. It will provide you with any Lowman data you would wish for to use in your projects. API is free to use, however The only requirement is that you include the attribution "Data provided by lowman-central.com" in a visible and accessible location within your project.
+The official Lowman API for Destiny 2. It will provide you with any Lowman data you would wish for to use in your projects. API is free to use, however The only requirement is that you include the attribution "Data provided by lowman-central.com" in a visible and accessible location within your project. Consider supporting the project through Ko-Fi: https://ko-fi.com/lowmancentral :)!
 
 # Endpoints
 
@@ -135,11 +135,11 @@ POST /getPlacementFullClears
 
 
 Body:
-  - raid: edge, crota, ron, kf, vow, vog, dsc, gos, lw, pantheon, crown, scourge, eater, or levi `(string)`
-  - difficulty: legend, master and atraks, oryx, rhulk or nezarec in case of Pantheon `(string)`
-  - fireteamSize: 1,2,3 or 4 (four only possible for Salvations's Edge) `(int)`
-  - isFlawless: 1 or 0 `(int)`
-  - page: make it 1 for the first 100 placements `(int)`
+  - **raid**: edge, crota, ron, kf, vow, vog, dsc, gos, lw, pantheon, crown, scourge, eater, or levi `(string)`
+  - **difficulty**: legend, master and atraks, oryx, rhulk or nezarec in case of Pantheon `(string)`
+  - **fireteamSize**: 1,2,3 or 4 (four only possible for Salvations's Edge) `(int)`
+  - **isFlawless**: 1 or 0 `(int)`
+  - **page**: make it 1 for the first 100 placements `(int)`
 
 
 
